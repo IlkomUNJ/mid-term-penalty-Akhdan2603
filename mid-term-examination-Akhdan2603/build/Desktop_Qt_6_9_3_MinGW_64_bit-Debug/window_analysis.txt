@@ -1,0 +1,66 @@
+=== WINDOW SIZE ANALYSIS ===
+
+Current window size: 3x3
+Total windows analyzed: 372504
+Non-empty windows: 73640
+Empty windows: 298864
+Non-empty ratio: 19.7689%
+
+=== PATTERN MATCHING RESULTS ===
+
+Pattern: Horizontal Line
+Matches: 0
+Pattern matrix:
+0 0 0 
+1 1 1 
+0 0 0 
+
+Pattern: Vertical Line
+Matches: 0
+Pattern matrix:
+0 1 0 
+0 1 0 
+0 1 0 
+
+Pattern: Diagonal (TL-BR)
+Matches: 1181
+Pattern matrix:
+1 0 0 
+0 1 0 
+0 0 1 
+
+Pattern: Diagonal (TR-BL)
+Matches: 1517
+Pattern matrix:
+0 0 1 
+0 1 0 
+1 0 0 
+
+Pattern: Partial Horizontal 1
+Matches: 619
+Pattern matrix:
+0 0 0 
+1 1 0 
+0 0 0 
+
+Pattern: Partial Horizontal 2
+Matches: 626
+Pattern matrix:
+0 0 0 
+0 1 1 
+0 0 0 
+
+Pattern: Partial Vertical 1
+Matches: 558
+Pattern matrix:
+0 1 0 
+0 1 0 
+0 0 0 
+
+Pattern: Partial Vertical 2
+Matches: 530
+Pattern matrix:
+0 0 0 
+0 1 0 
+0 1 0 
+
